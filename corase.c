@@ -2,10 +2,10 @@
  * Gerador de senhas com criptografia AES-256-GCM
  *
  * Compilar (Linux/macOS):
- *   gcc gerador_senhas.c -o gerador_senhas -lcrypto
+ *   gcc corase.c -o corase -lcrypto
  *
  * Compilar (Windows com MSYS2/MinGW):
- *   gcc gerador_senhas.c -o gerador_senhas.exe -lcrypto
+ *   gcc corase.c -o corase.exe -lcrypto
  *
  * Dependencia: OpenSSL (Ubuntu/Debian: sudo apt install libssl-dev
  *                       macOS: brew install openssl)
